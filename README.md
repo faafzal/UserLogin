@@ -1,3 +1,3 @@
 # UserLogin
 
-This is a simple UserLogin program written in Java.
+This is a simple UserLogin example written in Java.
