@@ -8,9 +8,7 @@ package userlogin;
  * @author fafzal
  *
  */
-
 public class Model {
-	
 	//initialize databaseArray
 	private String[][] databaseArray;
 
@@ -19,13 +17,11 @@ public class Model {
 	 * when the Model object is created.
 	 */
 	public Model(){
-		
 		// The database array is a 10 x 2 array.
 		this.databaseArray = new String[10][2];
 		
 		//loops through the array to add values
 		for(int i = 0; i < this.databaseArray.length; i++){
-			
 			//this function adds 1 to i so that the array creates users from 1 to 10
 			int count = i+1;
 			
@@ -34,17 +30,11 @@ public class Model {
 			
 			//databaseArray[i][1] will store the passwords
 			this.databaseArray[i][1] = "pass" + count;
-		
 		}
-		
 	}
 	
 	//getter for the database array
 	public String[][] getDatabaseArray(){
-		
 		return this.databaseArray;
-		
 	}
-	
-	
 }
