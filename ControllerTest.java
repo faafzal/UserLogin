@@ -10,7 +10,6 @@ import org.junit.Test;
  *
  */
 public class ControllerTest {
-
 	/*
 	 * create the objects
 	 */
@@ -23,7 +22,6 @@ public class ControllerTest {
 	 */
 	@Test
 	public void testLoginSuccess() {
-		
 		//set username as user 1
 		myController.setUsername("user1");
 		
@@ -42,7 +40,6 @@ public class ControllerTest {
 	 */
 	@Test
 	public void testLoginInvalid() {
-		
 		//set username to user1
 		myController.setUsername("user1");
 		
@@ -62,7 +59,6 @@ public class ControllerTest {
 	 */
 	@Test
 	public void testLoginNotRegistered() {
-		
 		//set username to random user
 		myController.setUsername("user124");
 		
@@ -75,5 +71,4 @@ public class ControllerTest {
 		//run the test
 		assertEquals(myController.getNotRegistered(), true);
 	}
-
 }
