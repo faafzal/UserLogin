@@ -60,7 +60,5 @@ public class UserLoginMVC {
 		
 		//update view
 		myController.updateView();
-		
 	}
-
 }
